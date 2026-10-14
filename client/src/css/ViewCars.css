@@ -1,0 +1,40 @@
+.car-grid {
+    display: grid;
+    grid-template-columns: 1fr;   
+    gap: 1rem;
+}
+
+.car-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    min-height: 220px;            
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.car-logo {
+    width: 50%;                   
+    height: 100%;
+    max-height: 180px;
+    object-fit: contain;          
+}
+
+.car-info {
+    flex: 1;
+}
+
+.car-price {
+    font-weight: bold;
+}
+
+.car-actions {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.error {
+    color: crimson;
+}
